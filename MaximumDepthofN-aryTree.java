@@ -53,10 +53,10 @@ class Solution {
             return 1;
         }
         int curMax =  1;
-	      for (Node child : root.children) {
-		        curMax = Math.max(curMax,1+maxDepth(child));
-	      }
-	      return curMax;
+	for (Node child : root.children) {
+	        curMax = Math.max(curMax,1+maxDepth(child));
+	}
+        return curMax;
     }
 }
           
